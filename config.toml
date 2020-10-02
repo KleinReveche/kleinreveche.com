@@ -3,11 +3,36 @@ languageCode = "en-us"
 title = "Klein Reveche"
 theme = "sugoi"
 
-[menu]
+summaryLength = 20
+paginate = 5
+# Google Analytics ID, Uncomment below line to enable
+# googleAnalytics = "UA-123-45"
 
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/"
-    weight = -110
+# Enter your disqus Shortname and uncomment below line to enable
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+favicon = "images/favicon.png"
+herotitle = "Klein Reveche"
+herolink = "<i class='fas fa-github'></i>https://github.com/KleinReveche"
+herolinktext = "Check Now"
+contact = "Send me a message and I will get back as soon as possible."
+
+[hero]
+
+[menu]
+    [[menu.nav]]
+        name    = "Home"
+        pre = "<i class='fas fa-home'></i>"
+        url     = "/"
+        weight  = -1
+    [[menu.nav]]
+        name    = "blog"
+        pre = "<i class='fas fa-list'></i>"
+        url     = "post"
+        weight  = -2
+#    [[menu.nav]]
+#        name    = "contact"
+#        pre = "<i class='fas fa-envelope'></i>"
+#        url     = "contact"
+#        weight  = -3
