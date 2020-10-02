@@ -2,3 +2,12 @@ baseURL = "https://kleinreveche.com/"
 languageCode = "en-us"
 title = "Klein Reveche"
 theme = "fuji"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -110
