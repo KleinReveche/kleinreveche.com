@@ -1,7 +1,7 @@
 baseURL = "https://kleinreveche.com/"
 languageCode = "en-us"
 title = "Klein Reveche"
-theme = "fuji"
+theme = "sugoi"
 
 [menu]
 
