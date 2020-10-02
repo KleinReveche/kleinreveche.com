@@ -15,7 +15,7 @@ paginate = 5
 favicon = "images/favicon.png"
 herotitle = "Klein Reveche"
 herolink = "https://github.com/KleinReveche"
-herolinktext = "<i class='fas fa-home'></i>Github"
+herolinktext = "Github"
 contact = "Send me a message and I will get back as soon as possible."
 
 [hero]
