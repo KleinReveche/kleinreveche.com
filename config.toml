@@ -29,7 +29,7 @@ contact = "Send me a message and I will get back as soon as possible."
     [[menu.nav]]
         name    = "blog"
         pre = "<i class='fas fa-list'></i>"
-        url     = "post"
+        url     = "posts"
         weight  = -2
 #    [[menu.nav]]
 #        name    = "contact"
