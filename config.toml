@@ -1,7 +1,7 @@
 baseURL = "https://kleinreveche.com/"
 languageCode = "en-us"
 title = "Klein Reveche"
-theme = "sugoi"
+theme = "dream"
 
 summaryLength = 70
 paginate = 10
@@ -11,29 +11,60 @@ paginate = 10
 # Enter your disqus Shortname and uncomment below line to enable
 # disqusShortname = "yourdiscussshortname"
 
+# https://gohugo.io/news/0.60.0-relnotes/
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
-favicon = "images/favicon.png"
-maintitle = "Klein Reveche"
-mainsubtitle = ""
-mainlink = "https://github.com/KleinReveche"
-mainlinktext = "Github"
-contact = "Send me a message and I will get back as soon as possible."
+  background = "#121212"
+  #backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
 
-[hero]
+  author = "Klein Reveche"
+  description = "Ur Average 17 year old with basic programming knowledge"
+  avatar = "/images/me/portrait_tux.jpg"
+  motto = ""
+  categoriesLimitInHeader = 6
+  # headerBottomText = ""
 
-[menu]
-    [[menu.nav]]
-        name    = "Home"
-        pre = "<i class='fas fa-home'></i>"
-        url     = "/"
-        weight  = -1
-    [[menu.nav]]
-        name    = "blog"
-        pre = "<i class='fas fa-list'></i>"
-        url     = "posts"
-        weight  = -2
-#    [[menu.nav]]
-#        name    = "contact"
-#        pre = "<i class='fas fa-envelope'></i>"
-#        url     = "contact"
-#        weight  = -3
+  #rss = true
+
+  #utterancesRepo = "g1eny0ung/g1eny0ung.github.io"
+
+  # valine = true
+  # LEANCLOUD_APP_ID = ""
+  # LEANCLOUD_APP_KEY = ""
+  
+  email = "therealklr2003@gmail.com"
+  twitter = "KleinReveche"
+  facebook = "klr2003"
+  #instagram = ""
+  # mastodon = ""
+  #linkedin = ""
+  github = "KleinReveche"
+  #stackoverflow = ""
+  #codepen = ""
+
+  siteStartYear = 2020
+
+  favicon = "/images/favicon.ico"
+
+  highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages = ["ocaml"]
+  highlightjsTheme = "gruvbox-light"
+  highlightjsThemeDark = "gruvbox-dark"
+
+  # search
+  enableSearch = true
+
+  # options
+  showSummaryCoverInPost = true
+  # hasTwitterEmbed = true
+
+  # dark mode
+  darkLinkColor = "darkseagreen"
+  darkNav = true
+  dark404 = true

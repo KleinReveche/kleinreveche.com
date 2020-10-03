@@ -1,9 +1,10 @@
 ---
-title: "Hello World"
-type: post
+title: Hello World
 date: 2020-10-02T22:11:57+08:00
-url: /hello-world/
-image: /images/2020-thumbs/hello-world.jpg
+lastmod: 2020-10-02T22:11:57+08:00
+author: Klein Reveche
+# authorlink: https://author.site
+cover: /images/hello-world.png
 categories:
   - Personal
   - Programming
@@ -11,6 +12,9 @@ tags:
   - HTML
 draft: false
 ---
+
+Just Hello World, Welcoming the new.
+
 <!--more-->
 
 In Programming, a Hello World is a typical starting point of any Programming Projects. It is actually included in most books and tutorials, especially the words "Lorem ipsum".
