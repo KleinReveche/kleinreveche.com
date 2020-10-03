@@ -10,7 +10,7 @@ categories:
 tags:
   - Windows
   - Linux
-draft: true
+draft: false
 ---
 <!--more-->
 
