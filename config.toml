@@ -49,7 +49,7 @@ paginate = 10
 
   siteStartYear = 2020
 
-  favicon = "/images/favicon.ico"
+  favicon = "/images/favicon.png"
 
   highlightjs = true
   # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
