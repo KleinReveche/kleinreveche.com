@@ -1,7 +1,7 @@
 baseURL = "https://kleinreveche.com/"
 languageCode = "en-us"
 title = "Klein Reveche"
-theme = "dream"
+theme = "kr-dream"
 
 summaryLength = 70
 paginate = 10
@@ -23,9 +23,9 @@ paginate = 10
   linkColor = "seagreen"
 
   author = "Klein Reveche"
-  description = "Ur Average 17 year old with basic programming knowledge"
+  description = "Ur Average 17 year old with Basic Programming Knowledge and an expert Minecraft Player"
   avatar = "/images/me/portrait_tux.jpg"
-  motto = ""
+  motto = "Ur Average 17 year old with Basic Programming Knowledge and an expert Minecraft Player"
   categoriesLimitInHeader = 6
   # headerBottomText = ""
 

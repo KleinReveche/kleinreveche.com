@@ -48,3 +48,5 @@ mv file1.txt file2.txt
 ```
 
 I have been using Linux for 6 months and I have enjoyed my time with Linux. I still use Windows but only for Office and some stuff.
+
+> ### “The measure of intelligence is the ability to change” -Albert Einstein

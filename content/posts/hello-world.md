@@ -13,7 +13,7 @@ tags:
 draft: false
 ---
 
-Just Hello World, Welcoming the new.
+Hello World, Welcoming the new.
 
 <!--more-->
 
@@ -23,3 +23,5 @@ This is a new beginning for my website, I abandoned wordpress as it required me 
 It is a short post but it starts a whole new chapter for my life.
 
 "Hello World"
+
+> ### Sometimes we must try something new to learn something about ourselves. -Anonymous
