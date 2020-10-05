@@ -55,4 +55,4 @@ Minecraft is a game that keep evolving over the years, even from when I started 
 
 Here's to more Minecraft! :)
 
-> "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world." -Albert Einstein
+> ### **"Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world." -Albert Einstein**

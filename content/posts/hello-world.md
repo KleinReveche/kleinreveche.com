@@ -24,4 +24,4 @@ It is a short post but it starts a whole new chapter for my life.
 
 "Hello World"
 
-> ### Sometimes we must try something new to learn something about ourselves. -Anonymous
+> ### **Sometimes we must try something new to learn something about ourselves. -Anonymous**
