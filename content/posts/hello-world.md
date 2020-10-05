@@ -13,7 +13,7 @@ tags:
 draft: false
 ---
 
-Hello World, Welcoming the new.
+Hello World; A statement of welcoming the new.
 
 <!--more-->
 
