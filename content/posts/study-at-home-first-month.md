@@ -36,5 +36,5 @@ They gave us a choice for online learning or modular learning. I think they need
 
 I think they need to step up with their game and produce modules that can be understood easily by students, many of the students just study by themselves.
 
-> ### **"The Youth is the Hope of the Nation" -Jose Rizal (Translated)**
+> ### **"The Youth is the Hope of our Future" -Jose Rizal**
 
