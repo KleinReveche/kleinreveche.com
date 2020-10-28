@@ -3,7 +3,7 @@ title: "Study at Home First Month Impressions" # Title of the blog post.
 date: 2020-10-28T13:08:44+08:00 # Date of post creation.
 description: "This is my first month impressions for my first month of studying at home."
 featured: true 
-draft: true
+draft: false
 toc: false 
 # menu: main
 featureImage: "/images/study-at-home-first-month.png" 
@@ -19,7 +19,7 @@ tags:
   - Home
 # comment: false # Disable comment if false.
 ---
-During the Corona Virus Pandemic, a lot has changed in our lives including Education. Even though a virus is roaming around, we still need 
+During the Corona Virus Pandemic, a lot has changed in our lives including Education. Even though a virus is roaming around, we still need Education.
 
 <!--more-->
 (For Context: I am a Grade 11 Student in STEM track.)

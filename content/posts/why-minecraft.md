@@ -8,7 +8,7 @@ toc: false # Controls if a table of contents should be generated for first-level
 # menu: main
 featureImage: "/images/why-minecraft.webp" # Sets featured image on blog post.
 thumbnail: "/images/why-minecraft.webp" # Sets thumbnail image appearing inside card on homepage.
-shareImage: "/images/path/share.webp" # Designate a separate image for social media sharing.
+shareImage: "/images/why-minecraft.webp" # Designate a separate image for social media sharing.
 codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
 codeLineNumbers: false # Override global value for showing of line numbers within code block.
 figurePositionShow: true # Override global value for showing the figure label.
@@ -40,5 +40,5 @@ Minecraft was synonymous with building, but quite frankly, I sucked at building.
 
 As to this day, Players of Minecraft are still pushing the game's limits. From replicas of the Wonders of the World to towns and cities, Minecraft lets players run their imagination, from limited blocks there are unlimited possibilities. They created a game which does not in anyway hinder Imagination amongst players. No Chairs? use stairs or Scaffolding with doors, you can have many combinations to choose from. In Minecraft, Limitations give players endless possibilities.
 
-Minecraft became the best selling video game of all time, beating Tetris. Minecraft for me became a symbol of creativity, togetherness and a game for all ages. Minecraft maybe dated in appearance, but its 126 Million Active Players (As of May 2020) makes its mark on the world.
+Minecraft became the best selling video game of all time, beating Tetris. Minecraft for me became a symbol of creativity, togetherness and a game for all ages. Minecraft maybe dated in appearance, but its 126 Million Active Players (As of May 2020) still makes its mark on the world.
 

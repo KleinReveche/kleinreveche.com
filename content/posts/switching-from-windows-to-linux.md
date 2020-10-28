@@ -1,6 +1,6 @@
 ---
 title: "Switching From Windows to Linux" # Title of the blog post.
-date: 2020-10-03T11:12:11+08:00 # Date of post creation.
+date: 2020-10-09T11:12:11+08:00 # Date of post creation.
 description: "I'm changing my main OS from Windows to Linux."
 featured: true 
 draft: false
@@ -8,7 +8,7 @@ toc: false
 # menu: main
 featureImage: "/images/windows-to-linux.png" 
 thumbnail: "/images/windows-to-linux.png"
-shareImage: "/images/windows-to-linux.png"
+shareImage: "/images/windows-to-linux.pnmages/why-minecraft.webp" # Sets thumbnail image g"
 codeMaxLines: 10 
 codeLineNumbers: false 
 figurePositionShow: true 
