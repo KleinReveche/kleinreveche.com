@@ -1,6 +1,6 @@
 ---
 title: "Why Do I Play Minecraft?" # Title of the blog post.
-date: 2020-10-24T12:53:40+08:00 # Date of post creation.
+date: 2020-10-14T12:53:40+08:00 # Date of post creation.
 description: "My experiences and reasons why I play Minecraft." # Description used for search engine.
 featured: true # Sets if post is a featured post, making appear on the home page side bar.
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
