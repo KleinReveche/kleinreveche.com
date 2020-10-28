@@ -1,19 +1,27 @@
 ---
-title: Switching from Windows to Linux
-date: 2020-10-03T11:12:11+08:00
-lastmod: 2020-10-03T11:12:11+08:00
-author: Klein Reveche
-# authorlink: https://author.site
-cover: /images/windows-to-linux.png
+title: "Switching From Windows to Linux" # Title of the blog post.
+date: 2020-10-03T11:12:11+08:00 # Date of post creation.
+description: "I'm changing my main OS from Windows to Linux."
+featured: true 
+draft: false
+toc: false 
+# menu: main
+featureImage: "/images/windows-to-linux.png" 
+thumbnail: "/images/windows-to-linux.png"
+shareImage: "/images/windows-to-linux.png"
+codeMaxLines: 10 
+codeLineNumbers: false 
+figurePositionShow: true 
 categories:
-  - Personal
+  - Technology
   - Programming
 tags:
   - Windows
   - Linux
-draft: false
+# comment: false # Disable comment if false.
 ---
-Windows was my first but I am ready for change. My journey was fun (at least for me) and challenging, it taught me many things about computers in general.
+
+Windows was my first but I am ready for change. My journey was fun (at least for me) and challenging, it taught me many things about computers in general. To be clear: I am changing my main Operating System.
 
 Join me as I navigate the rabbit hole that is Linux.
 
@@ -53,3 +61,4 @@ mv file1.txt file2.txt
 I have been using Linux for 6 months and I have enjoyed my time with Linux. I still use Windows but only for Office and some stuff.
 
 > ### **“The measure of intelligence is the ability to change” -Albert Einstein**
+

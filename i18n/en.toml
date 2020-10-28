@@ -1,56 +1,47 @@
-[blogAlias]
-other = "'s Blog"
+[read_more]
+other = "Read More"
 
-[home]
-other = "Home"
+[copyright]
+other = "Copyright"
 
-[backToHome]
-other = "Back to home"
+[all_rights]
+other = "All Rights Reserved"
 
-[flip]
-other = "Flip it!"
+[share_on]
+other = "Share on"
 
-[archives]
-other = "Archives"
+[featured_posts]
+other = "Featured Posts"
 
-[allTags]
-other = "All Tags"
+[recent_posts]
+other = "Recent Posts"
 
-[tag]
-one = "tag"
-other = "{{ .Count }} tags"
+[404_title]
+other = "Lost"
 
-[allCategories]
+[could_not_find]
+other = "We couldn't find the page you're looking for"
+
+[go_back]
+other = "Go Back"
+
+[translations]
+other = "Translations"
+
+[categories]
+other = "Categories"
+
+[tags]
+other = "Tags"
+
+[series]
+other = "Series"
+
+[all_categories]
 other = "All Categories"
 
-[category]
-one = "category"
-other = "{{ .Count }} categories"
+[all_tags]
+other = "All Tags"
 
-[article]
-one = "1 article"
-other = "{{ .Count }} articles"
-
-[socialLinks]
-other = "Social Links"
-
-[minuteRead]
-other = " minute read"
-
-[updateAt]
-other = "Updated at"
-
-[noTag]
-other = "No Tags"
-
-[prevPage]
-other = "Previous page"
-
-[nextPage]
-other = "Next page"
-
-[saveAsImage]
-other = "Save as image"
-
-[search]
-other = "Search"
+[all_series]
+other = "All Series"

@@ -1,18 +1,25 @@
 ---
-title: Minecraft Caves and Cliffs First Impressions
-date: 2020-10-04T08:18:25+08:00
-lastmod: 2020-10-04T08:18:25+08:00
-author: Klein Reveche
-# authorlink: https://author.site
-cover: /images/minecraft-caves-and-cliffs-impressions.png
+title: "Minecraft Caves and Cliffs First Impressions" # Title of the blog post.
+date:  2020-10-04T08:18:25+08:00 # Date of post creation.
+description: "Here are my first impressions of the latest Minecraft 1.17 update."
+featured: true 
+draft: false
+toc: false 
+# menu: main
+featureImage: "/images/minecraft-caves-and-cliffs-impressions.png" 
+thumbnail: "/images/minecraft-caves-and-cliffs-impressions.png"
+shareImage: "/images/minecraft-caves-and-cliffs-impressions.png"
+codeMaxLines: 10 
+codeLineNumbers: false 
+figurePositionShow: true 
 categories:
-  - Personal
   - Games
 tags:
   - Minecraft
-draft: false
+# comment: false # Disable comment if false.
 ---
-##### Let's welcome the brand new Minecraft Update: Caves and Cliffs Update
+
+##### Let's welcome the brand new Minecraft Update: Caves and Cliffs Update!
 
 <!--more-->
  {{< gallery-slider dir="/images/minecraft/caves-and-cliffs" arrow-left="fa-angle-double-left" arrow-right="fa-angle-double-right" auto-slide="7500" >}}
@@ -56,3 +63,4 @@ Minecraft is a game that keep evolving over the years, even from when I started 
 Here's to more Minecraft! :)
 
 > ### **"Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world." -Albert Einstein**
+
