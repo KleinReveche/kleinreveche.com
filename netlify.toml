@@ -35,6 +35,18 @@ HUGO_ENABLEGITINFO = "true"
   from = "/*"
   to = "/index.html"
   status = 200
+  
+[[redirects]]
+  from = "https://blog--kleinreveche.netlify.app/*"
+  to = "https://blog.kleinreveche.com"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "http://blog--kleinreveche.netlify.app/*"
+  to = "https://blog.kleinreveche.com"
+  status = 301
+  force = true
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
