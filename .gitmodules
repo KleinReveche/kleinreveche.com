@@ -1,6 +1,9 @@
 [submodule "themes/kr-dream"]
 	path = themes/kr-dream
 	url = https://github.com/KleinReveche/hugo-theme-dream.git
-[submodule "themes/clarity"]
-	path = themes/clarity
-	url = https://github.com/chipzoller/hugo-clarity.git
+[submodule "themes/dot-hugo-documentation-theme"]
+	path = themes/dot-hugo-documentation-theme
+	url = https://github.com/gethugothemes/dot-hugo-documentation-theme.git
+[submodule "themes/dot"]
+	path = themes/dot
+	url = https://github.com/gethugothemes/dot-hugo-documentation-theme.git
