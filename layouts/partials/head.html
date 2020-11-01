@@ -1,24 +1,43 @@
-{{- $params := .Site.Params }}
-{{- $separator := default "|" $params.titleSeparator }}
-{{- $title := "" }}
-{{- if and .Title (ne (trim (lower .Site.Title) "") (trim (lower .Title) "")) }}
-  {{- if eq .Kind "taxonomy" }}
-    {{- $title = default .Title ( i18n (lower .Title) ) }}
-  {{- else }}
-    {{- $title = .Title }}
-  {{- end }}
-{{- end }}
-<title>{{ with $title }}{{ . }} {{ $separator }} {{ end }}{{ .Site.Title }}</title>
-<meta charset="utf-8">
-{{ hugo.Generator }}
-{{- with $params.ga_verify }}
-  <meta name="google-site-verification" content="{{ . }}">
-{{- end }}
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-{{- if (ne hugo.Environment "development") }}
-  {{- partial "analytics" . }}
-{{- end }}
-{{- partial "opengraph" . }}
-{{- partial "favicon" . }}
-<link rel="canonical" href="{{ .Permalink }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{ if .Site.Params.Author }}
+  <meta name="author" content="{{ .Site.Params.Author }}" />
+  {{ end }}
+  {{ if .Site.Params.Description }}
+  <meta
+    name="description"
+    content="{{ .Site.Params.Description }}"
+  />
+  {{ end }}
+  <title>{{ .Site.Title }}</title>
+  <link
+    href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="./dist/sweetalert2.all.min.js"></script>
+  <!-- Include a polyfill for ES6 Promises (optional) for IE11 -->
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+  <script src="./custom.js"></script>
+  <script src="http://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <style>
+    @font-face {
+      font-family: "Bree Serif";
+      src: url("./BreeSerif-Regular.ttf") format("truetype");
+    }
+    .font-bree {
+      font-family: "Bree Serif", serif;
+    }
+    .hide {
+      display: none;
+    }
+    .active {
+      background-color: #4299e1;
+      color: white;
+    }
+    .active:hover {
+      color: white;
+    }
+  </style>
+</head>
