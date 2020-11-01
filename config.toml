@@ -12,9 +12,9 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
   message = "Hello"
   hideAutoMenu = false
 
-[[menu.main]]
-  name = "External"
-  url = "https://example.com"
+#[[menu.main]]
+#  name = "External"
+#  url = "https://example.com"
 
 [social]
   facebook = "https://facebook.com"
