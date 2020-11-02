@@ -92,7 +92,7 @@
         {{- with (.Get "dir") -}} 
             {{- $files := readDir (print "/static/" .) }} 
             {{- range $files -}} 
-                {{- $absoluteUrl := print ($.Get "dir") "/" .Name | absURL }}
+                {{- $absoluteUrl := print ($.Get "dir") "/" .Name | absLangURL }}
                 <li class="slide" style="background-image:url({{ $absoluteUrl }});"></li>
             {{- end }} 
         {{- end }}

@@ -38,7 +38,7 @@
 
       {{- if eq $centerLogo true }}
       <a href='{{ absLangURL "" }}' class="nav_brand nav_center nav_item">
-        <img src="{{ absURL $logo }}" class="logo">
+        <img src="{{ absLangURL $logo }}" class="logo">
       </a>
       {{- end }}
       {{- partial "follow" . }}

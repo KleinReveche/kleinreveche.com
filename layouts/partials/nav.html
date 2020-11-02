@@ -8,21 +8,21 @@
   {{- if eq $menu $menuData }}
     {{- $children = .submenu }}
     {{- $name = .name }}
-    {{- $url = absURL .link }}
+    {{- $url = absLangURL .link }}
   {{- else }}
     {{- $children = .Children }}
     {{- $name = .Name }}
     {{- $url = absLangURL .URL }}
   {{- end }}
   <div class="nav_parent{{ if eq $url $link }} nav_active{{ end}}">
-    <a href="{{ $url }}" class="nav_item">{{ $name }} {{ with $children }}<img src='{{ absURL "icons/caret-icon.svg" }}' alt="icon" class="nav_icon">{{ end }}</a>
+    <a href="{{ $url }}" class="nav_item">{{ $name }} {{ with $children }}<img src='{{ absLangURL "icons/caret-icon.svg" }}' alt="icon" class="nav_icon">{{ end }}</a>
     {{- with $children }}
     <div class="nav_sub">
       <span class="nav_child"></span>
       {{- range . }}
         {{- if eq $menu $menuData }}
           {{- $name = .name }}
-          {{- $url = absURL .link }}
+          {{- $url = absLangURL .link }}
         {{- else }}
           {{- $name = .Name }}
           {{- $url = absLangURL .URL }}

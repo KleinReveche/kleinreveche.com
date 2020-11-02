@@ -39,7 +39,7 @@
     <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous">
     {{- with $s.customCSS }}
     {{- range . -}}
-	  <link rel="stylesheet" href="{{ relURL . }}">
+	  <link rel="stylesheet" href="{{ relLangURL . }}">
     {{- end }}
     {{- end }}
     {{ partial "hooks/head-end.html" . }}
@@ -72,7 +72,7 @@
     <script type="text/javascript" src="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous"></script>
     {{- with $s.customJS }}
     {{- range . -}}
-    <script type="text/javascript" src="{{ relURL . }}" ></script>
+    <script type="text/javascript" src="{{ relLangURL . }}" ></script>
     {{- end }}
     {{- end }}
     {{ partial "hooks/body-end.html" . }}
