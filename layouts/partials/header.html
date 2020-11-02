@@ -30,7 +30,7 @@
         <div class="nav_sub">
           <span class="nav_child"></span>
           {{ range .Site.Home.AllTranslations }}
-          <a href="{{ .Permalink }}" class="nav_child nav_item">{{ .Language.LanguageName }}</a>
+          <a href="{{ .RelPermalink }}" class="nav_child nav_item">{{ .Language.LanguageName }}</a>
           {{ end }}
         </div>
       </div>

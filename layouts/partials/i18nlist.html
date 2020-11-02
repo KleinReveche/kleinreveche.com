@@ -1,0 +1,7 @@
+{{ if .IsTranslated }}
+<p>{{ i18n "translations" }}: 
+{{ range .Translations }}
+  <a href="{{ .RelPermalink }}">{{ printf "%#v" .Language.LanguageName }} |</a>
+{{ end }}
+</p>
+{{ end }}
