@@ -8,7 +8,7 @@ function comingsoon(){
 function underconstruction(){
 	Swal.fire(
   	'Know Your Tech',
-  	'Still Underconstruction, Please wait for a few days.',
+  	'Still Underconstruction, Coming Soon, December 2020',
   	'info'
 		)
 	}
