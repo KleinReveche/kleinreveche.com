@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kleinreveche.com
+Token: 34f3a7749144270008b0d7de9d9fb633ac90ee4a648bc736dd892f55adaefeaa
