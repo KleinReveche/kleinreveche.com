@@ -17,7 +17,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 #  url = "https://example.com"
 
 [social]
-  facebook = "https://facebook.com"
-  twitter = "https://twitter.com"
-  instagram = "https://instagram.com"
-  linkedin = "https://linkedin.com"
+  facebook = "https://facebook.com/klr2003"
+  twitter = "https://twitter.com/KleinReveche"
+  #instagram = "https://instagram.com"
+  #linkedin = "https://linkedin.com"
